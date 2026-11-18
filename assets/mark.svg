@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<rect x="0" y="0" width="512" height="512" rx="0" fill="#f7f2e7" stroke="none"/>
+<rect x="0" y="0" width="512" height="512" rx="0" fill="#132c38" stroke="none"/>
+<line x1="88" y1="392" x2="424" y2="392" stroke="#b7772f" stroke-width="12"/>
+<text x="92" y="337" font-family="Liberation Serif, Georgia, serif" font-size="226" font-weight="400" fill="#f7f2e7">DA</text>
+</svg>

@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Dean Ammons's four-paper Information Flow Series: AI influence, confidential information, provenance, and intervention. Read the preprints and examine their evidence.">
+  <meta name="author" content="Dean Ammons">
+  <meta name="theme-color" content="#152c36">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Dean Ammons — Information Flow Series">
+  <meta property="og:description" content="Four research preprints on what information, evidence and authority survive as AI systems learn, share and change.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:image" content="https://deanammons.github.io/assets/01_series_card.png">
+  <meta property="og:url" content="https://deanammons.github.io/">
+  <link rel="canonical" href="https://deanammons.github.io/">
+  <title>Dean Ammons — Information Flow Series</title>
+  <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header wrap">
+  <a class="identity" href="#" aria-label="Dean Ammons, page top"><span class="monogram" aria-hidden="true">DA</span><span>Dean Ammons<small>Independent research</small></span></a>
+  <nav aria-label="Main navigation"><a href="#papers">Papers</a><a href="#questions">Questions</a><a href="#discussion">Discussion</a><a href="press.html">Press</a></nav>
+</header>
+<main id="main">
+  <section class="hero wrap" aria-labelledby="hero-title">
+    <div class="hero-copy">
+      <p class="eyebrow">The Information Flow Series</p>
+      <h1 id="hero-title">When information moves,<br><em>what survives?</em></h1>
+      <p class="lead">Four papers follow information through AI: what changes an answer, what crosses a boundary, what remains of an origin, and what can still be stopped.</p>
+      <div class="actions"><a class="button" href="#papers">Explore the four papers <span aria-hidden="true">↓</span></a><a class="text-link" href="#questions">Start with a question <span aria-hidden="true">↓</span></a></div>
+      <p class="hero-note">Research preprints · November 12–15, 2026</p>
+    </div>
+    <figure class="hero-art"><img src="assets/hero-art.png" alt="Editorial illustration: an amber thread passes through four folded-paper structures; a source tag fades while the thread continues beyond a gate." width="1536" height="1024" fetchpriority="high"><figcaption><span>Influence</span><span>Tracing</span><span>Provenance</span><span>Intervention</span></figcaption></figure>
+  </section>
+
+  <section class="entry wrap" id="questions" aria-labelledby="entry-title">
+    <div class="section-heading"><p class="eyebrow">Three ways into the research</p><h2 id="entry-title">A question before an equation.</h2></div>
+    <div class="question-grid">
+      <article><span class="index">01 / Confidentiality</span><h3>Can a recommendation reveal a secret without quoting it?</h3><p>A conclusion can carry information from a private source. Paper II asks which permissions must follow that information as it changes form.</p><a class="text-link" href="#paper-ii">Explore Paper II <span aria-hidden="true">→</span></a></article>
+      <article><span class="index">02 / Provenance</span><h3>What remains when knowledge survives but its origin records disappear?</h3><p>Retaining a useful capability and retaining evidence of its source are different things. Paper III examines the gap between them.</p><a class="text-link" href="#paper-iii">Explore Paper III <span aria-hidden="true">→</span></a></article>
+      <article><span class="index">03 / Intervention</span><h3>When the process stops, which powers can still act?</h3><p>Copies, credentials and delegated actions can outlast the process that began them. Paper IV asks what an effective intervention must reach.</p><a class="text-link" href="#paper-iv">Explore Paper IV <span aria-hidden="true">→</span></a></article>
+    </div>
+  </section>
+
+  <section class="papers wrap" id="papers" aria-labelledby="papers-title">
+    <div class="section-heading papers-heading"><div><p class="eyebrow">The complete series</p><h2 id="papers-title">Four papers. One connected inquiry.</h2></div><a class="text-link" href="citations.bib" download>Download citations <span aria-hidden="true">↓</span></a></div>
+
+    <article class="paper" id="paper-i">
+      <div class="paper-number" aria-hidden="true">I</div>
+      <div class="paper-main"><p class="paper-meta"><time datetime="2026-11-12">November 12, 2026</time><span>Framework + in-context pilot</span></p><h3>Ammons LLM Preamble</h3><p class="subtitle">A probability framework for behavioral influence through domain content</p><p>How can a work influence a model without being quoted? This paper defines behavioral influence through controlled comparisons of semantic response distributions. A proposed pooling model relates that influence to incorporated evidence, background support and discrepancy from a control.</p><p class="evidence"><strong>Evidence boundary.</strong> The reported 12-pair pilot produced 24/24 correct answers with the relevant rule and 0/24 with an irrelevant-rule control. The control lacked the queried rule. This demonstrates use of supplied information in context; it does not establish persistent learning or historical training-source attribution.</p><div class="paper-links"><a href="https://doi.org/10.5281/zenodo.24177478">Original publication ↗</a><a href="https://github.com/deanammons/ammons-llm-preamble/blob/main/Ammons_LLM_Preamble.pdf">Read PDF ↗</a><a href="https://github.com/deanammons/ammons-llm-preamble">Materials &amp; repository ↗</a></div></div>
+    </article>
+
+    <article class="paper" id="paper-ii">
+      <div class="paper-number" aria-hidden="true">II</div>
+      <div class="paper-main"><p class="paper-meta"><time datetime="2026-11-13">November 13, 2026</time><span>Mathematical framework</span></p><h3>Ammons LLM Tracers: Information Beyond the Prompt</h3><p class="subtitle">Private state, internal cycles, and cross-boundary recovery</p><p>What can an unauthorized recipient learn after private information becomes a summary, memory entry or recommendation? This paper follows source-dependent information through state, internal computation, permitted observations and recovery. It distinguishes a shared model from a system with an actual private-information path.</p><p class="evidence"><strong>Evidence boundary.</strong> The confidentiality examples are constructed mathematical systems. The paper reports no measured cross-user leak in a deployed service. Shared trained weights alone do not establish a secret channel.</p><div class="paper-links"><a href="https://doi.org/10.5281/zenodo.24202383">Original publication ↗</a><a href="https://github.com/deanammons/ammons-llm-tracer/blob/main/Ammons_LLM_Tracers_Paper_II_Revised.pdf">Read PDF ↗</a><a href="https://github.com/deanammons/ammons-llm-tracer">Public repository ↗</a></div></div>
+    </article>
+
+    <article class="paper" id="paper-iii">
+      <div class="paper-number" aria-hidden="true">III</div>
+      <div class="paper-main"><p class="paper-meta"><time datetime="2026-11-14">November 14, 2026</time><span>Framework + restricted model experiment</span></p><h3>The Little Girl Who Gave the World Fire</h3><p class="subtitle">Information Influence and Provenance Framework</p><p>Useful information can persist while records identifying its origin disappear. This paper separates causal influence, recoverability, historical attribution, contribution to a chosen outcome, and rights or payment. It follows information through feedback, training and subsequent model generations.</p><p class="evidence"><strong>Evidence boundary.</strong> A reported Pythia-14m experiment adapts 256 scalars across eight source-assignment blocks. Accuracy on new wordings of trained keys was 96.09% with source-derived feedback and 57.81% with matched independent replacement. The feedback encodes the target information. This is a restricted experiment, not a general model-performance benchmark or a demonstration of learning and then forgetting an author's identity.</p><div class="paper-links"><a href="https://doi.org/10.5281/zenodo.24223543">Original publication ↗</a><a href="https://github.com/deanammons/ammons-llm-provenance/blob/main/The_Little_Girl_Who_Gave_the_World_Fire.pdf">Read PDF ↗</a><a href="https://github.com/deanammons/ammons-llm-provenance">Public repository ↗</a><a href="https://github.com/deanammons/ammons-llm-provenance/blob/main/PRESS_KIT.md">Press kit ↗</a></div></div>
+    </article>
+
+    <article class="paper" id="paper-iv">
+      <div class="paper-number" aria-hidden="true">IV</div>
+      <div class="paper-main"><p class="paper-meta"><time datetime="2026-11-15">November 15, 2026</time><span>Theory + research hypothesis</span></p><h3>The Last Kill Switch: An Exploration of Mortality and Gods</h3><p class="subtitle">Information, Intervention, and the Future of Human and Synthetic Life</p><p>What must an intervention control when intelligence can copy, delegate, retain state and sustain essential services? The concluding paper examines enforceable authority, preservation and recovery. It also investigates whether finite existence changes incentives, including circumstances in which shorter survival makes cooperation less attractive.</p><p class="evidence"><strong>Evidence boundary.</strong> The results are conditional mathematical analyses and constructions. The paper reports no deployed shutdown system or empirical synthetic-mortality test. Finite duration does not by itself establish alignment, prevent immediate harm, or settle the ethics of ending a possible subject.</p><div class="paper-links"><a href="https://doi.org/10.5281/zenodo.24254090">Original publication ↗</a><a href="https://github.com/deanammons/ammons-llm-kill-switch/blob/main/The_Last_Kill_Switch.pdf">Read PDF ↗</a><a href="https://github.com/deanammons/ammons-llm-kill-switch">Public repository ↗</a><a href="https://github.com/deanammons/ammons-llm-kill-switch/blob/main/PRESS_KIT.md">Press kit ↗</a></div></div>
+    </article>
+  </section>
+
+  <section class="reading-band" aria-labelledby="reading-title"><div class="wrap reading-grid"><div><p class="eyebrow">Reading the evidence</p><h2 id="reading-title">Claims should travel<br> with their limits.</h2><p class="brief-link"><a href="assets/research_brief.pdf">Download the one-page research brief (PDF) ↗</a></p></div><div><p>These are research preprints. A DOI or repository listing is a publication record; this page does not claim independent peer review or replication.</p><p>Paper I includes source, a protocol, retained responses and checking programs. Paper II's public release contains the manuscript and README. Papers III and IV provide the manuscripts, READMEs and press kits. The later releases do not include a complete public experimental reproduction package.</p><p>AI-assisted tools supported manuscript preparation. The named author is responsible for the claims, assumptions and interpretation.</p></div></div></section>
+
+  <section class="discussion wrap" id="discussion" aria-labelledby="discussion-title"><div><p class="eyebrow">Independent scrutiny welcome</p><h2 id="discussion-title">Bring a precise objection.</h2><p class="lead">A useful criticism identifies the assumption, observation or control that would change a conclusion.</p><ul class="critique-list"><li>Which control best tests the influence claim?</li><li>Which information path crosses the recipient's permission boundary?</li><li>Which origin claim is identifiable from the retained evidence?</li><li>Which surviving commitment defeats the intervention?</li></ul></div><aside class="author-panel"><p class="eyebrow">About the author</p><h3>Dean Ammons</h3><p>An independent researcher publishing under a pen name, and author of the Information Flow Series.</p><a class="button" href="https://www.reddit.com/r/u_Dean_Ammons/comments/1xyotuf/dean_ammons_four_research_papers_on_ai_influence/">Public discussion <span aria-hidden="true">↗</span></a><p class="discussion-note">This link opens the existing public series discussion on Reddit. Comments there are public.</p><div class="author-links"><a href="https://github.com/deanammons">GitHub ↗</a><a href="https://orcid.org/0009-0006-5529-2698">ORCID ↗</a><a href="https://x.com/DeanAmmons" target="_blank" rel="noopener noreferrer">X ↗</a></div></aside></section>
+</main>
+<footer class="site-footer wrap"><span>Dean Ammons · Information Flow Series</span><span>Research index updated November 18, 2026</span><a href="#">Back to top ↑</a></footer>
+</body>
+</html>
