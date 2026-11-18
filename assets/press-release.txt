@@ -32,7 +32,7 @@ https://doi.org/10.5281/zenodo.24254090
 
 About the author
 
-Dean Ammons is an independent researcher publishing under a pen name. His Information Flow Series examines AI influence, confidential information recovery, provenance and intervention. Public research materials: https://github.com/deanammons
+Dean Ammons is an independent researcher. His Information Flow Series examines AI influence, confidential information recovery, provenance and intervention. Public research materials: https://github.com/deanammons
 ORCID: https://orcid.org/0009-0006-5529-2698
 
 Public discussion
