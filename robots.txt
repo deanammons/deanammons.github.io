@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
+
 Sitemap: https://deanammons.github.io/sitemap.xml

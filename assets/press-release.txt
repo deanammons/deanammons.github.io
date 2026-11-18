@@ -1,0 +1,39 @@
+Dean Ammons Publishes Four-Paper Series on AI Information, Provenance and Control
+
+The Information Flow Series examines what changes an AI's behavior, what can cross a confidentiality boundary, what remains of a contribution, and what an intervention can still stop.
+
+November 18, 2026
+
+Independent researcher Dean Ammons has published four research preprints about how information and authority persist through AI systems. Released November 12-15, the Information Flow Series follows a question through learning, confidential state, provenance and intervention: when a system changes, what survives, and what evidence remains?
+
+The first paper, Ammons LLM Preamble, defines a framework for measuring changes in semantic response distributions under controlled exposure. Its reported 12-pair pilot produced 24 correct exposed-condition answers and zero correct control-condition answers. The control lacked the relevant rule. This demonstrates use of supplied information in context; it does not establish persistent training or identify historical training sources.
+
+The second, Ammons LLM Tracers: Information Beyond the Prompt, examines information that can reach a recipient through state, derived conclusions and observations beyond a visible prompt. In a constructed negotiation example, a recommendation can disclose something confidential without quoting the underlying document. The paper does not report a measured leak in a named commercial service.
+
+The third, The Little Girl Who Gave the World Fire: Information Influence and Provenance Framework, distinguishes retaining useful information from retaining records that identify its origin. Its restricted experiment adapts 256 scalars in a model with approximately 14 million parameters. Across eight source-assignment blocks, accuracy on new wordings of trained keys was 96.09% with source-derived feedback and 57.81% with matched independent replacement. The feedback encodes the target information; these results are not a general model-performance benchmark.
+
+The concluding paper, The Last Kill Switch: An Exploration of Mortality and Gods, considers intervention when copies, credentials or delegated actions can survive the initiating process. It also examines whether finite existence changes incentives, including constructions in which shorter survival reduces cooperation. Its results are conditional theoretical analyses; it reports no deployed shutdown system or empirical test of synthetic mortality.
+
+The series invites independent examination of its assumptions, methods and counterexamples. These are research preprints. This announcement does not claim independent peer review or replication. AI-assisted tools supported manuscript preparation.
+
+Read the papers:
+
+I. Ammons LLM Preamble
+https://doi.org/10.5281/zenodo.24177478
+
+II. Ammons LLM Tracers: Information Beyond the Prompt
+https://doi.org/10.5281/zenodo.24202383
+
+III. The Little Girl Who Gave the World Fire
+https://doi.org/10.5281/zenodo.24223543
+
+IV. The Last Kill Switch
+https://doi.org/10.5281/zenodo.24254090
+
+About the author
+
+Dean Ammons is an independent researcher publishing under a pen name. His Information Flow Series examines AI influence, confidential information recovery, provenance and intervention. Public research materials: https://github.com/deanammons
+ORCID: https://orcid.org/0009-0006-5529-2698
+
+Public discussion
+https://www.reddit.com/user/Dean_Ammons/
